@@ -23,5 +23,5 @@ jobs:
         image: suminkim411/github-actions-app
         tags: v3, latest
         registry: docker.io
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+        username: suminkim411
+        password: dckr_pat_LXlAAcPA5yMcvGUmEbKoVlBzwWQ
