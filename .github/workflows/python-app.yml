@@ -21,7 +21,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: suminkim411/github-actions-app
-        tags: v3, latest
+        tags: ${{ github.sha }}, latest
         registry: docker.io
         username: suminkim411
         password: dckr_pat_LXlAAcPA5yMcvGUmEbKoVlBzwWQ
